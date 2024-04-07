@@ -1,0 +1,156 @@
+.bground-color {
+    background-color: #1B2A49;
+}
+
+.text-color {
+    color: #ffffff;
+}
+
+.top-font {
+    font-size: 24px;
+    letter-spacing: .1em;
+}
+
+.info-font {
+    font-size: 18px;
+}
+
+.fname-font {
+    font-size: 16px;
+}
+
+.topp-padding {
+    padding-top: 50px;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #FF0000;
+}
+
+.add-margin {
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.add-padding {
+    padding-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+.new-font {
+    font-family: 'Arial', sans-serif;
+    letter-spacing: .05em;
+}
+
+.space-letters-large {
+    letter-spacing: .1em;
+}
+
+.space-letters {
+    letter-spacing: .05em;
+}
+
+.unblock {
+    display: inline-block;
+}
+
+input[type="file"] {
+    opacity: 0;
+}
+
+.dont-break-out {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.new-font {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+}
+
+.logo h1 {
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.1;
+}
+
+.logo1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.header-style {
+    height: 80px;
+    background-color: #0375b4;
+}
+
+.adjust-fontcolor {
+    color: white;
+}
+
+.normal-header {
+    display: block;
+}
+
+.btn-font {
+    font-size: 24px;
+    letter-spacing: .05em;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+    /* Tablets and Phones in Portrait */
+    .top-font {
+        font-size: 20px;
+    }
+
+    .logo h1 {
+        font-size: 40px;
+    }
+
+    .adjust-image {
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Phones */
+    .top-font {
+        font-size: 18px;
+    }
+
+    .logo h1 {
+        font-size: 30px;
+    }
+
+    .adjust-image {
+        max-width: 200px;
+    }
+
+    .header-style {
+        height: 60px;
+    }
+}
